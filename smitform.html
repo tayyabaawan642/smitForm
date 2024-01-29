@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    #container {
+        margin: 0px 20% 0px 20%;
+        padding: 2%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    input {
+        color: lightgray;
+    }
+
+    .inputfield {
+        width: 100%;
+        border: 1px solid rgb(79, 186, 79);
+        font-size: 18px;
+        padding: 10px;
+        color: lightgray;
+        overflow: hidden;
+    }
+
+    td {
+        padding-right: 30px;
+    }
+
+    label {
+        color: #0d6db7;
+    }
+
+    #btn {
+        background-color: #0d6db7;
+        cursor: pointer;
+        color: white;
+        font-size: 15px;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+    }
+</style>
+
+<body>
+    <form action="">
+        <div id="container">
+            <table>
+                <tr>
+                    <td>
+                        <label for="">
+                            Select City <br>
+                            <select name="" id="" class="inputfield">
+                                <option value="">Select City</option>
+                                <option value="">Karachi</option>
+                                <option value="">Lahore</option>
+                                <option value="">Islamabad</option>
+                                <option value="">Peshawar</option>
+                            </select>
+                        </label>
+
+                    </td>
+                    <td>
+
+                        <label for="">
+                            Select Course or Event <br>
+                            <select class="inputfield">
+                                <option value="">Select Course</option>
+                                <option value="">Web Development</option>
+                                <option value="">Mobile Application Development</option>
+                                <option value="">SEO</option>
+                                <option value="">Digital Marketing</option>
+                            </select>
+                        </label>
+
+                    </td>
+                </tr>
+
+                <tr>
+
+                    <td>
+
+                        <label for=""> Name <br>
+                            <input type="text" placeholder="Full Name" value="" class="inputfield" required>
+                        </label>
+
+                    </td>
+                    <td>
+
+                        <label for="">Father Name <br>
+                            <input type="text" placeholder="Father Name" class="inputfield" required>
+                        </label>
+
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Email <br>
+                            <input type="text" placeholder="Email" class="inputfield" required>
+                        </label>
+                    </td>
+                    <td><label for="">Phone <br>
+                            <input type="text" placeholder="Phone" class="inputfield" required>
+                        </label>
+                    </td>
+
+                </tr>
+                <tr>
+
+                    <td>
+                        <label for="">CNIC <br>
+                            <input type="text" placeholder="CNIC" class="inputfield" required>
+                        </label>
+                    </td>
+                    <td>
+                        <label for="">Father's CNIC (optional) <br>
+                            <input type="text" placeholder="Father's CNIC" class="inputfield" required>
+                        </label>
+                    </td>
+
+                </tr>
+                <tr>
+
+                    <td>
+                        <label for="">Date of Birth <br>
+                            <input type="date" class="inputfield" required>
+                        </label>
+                    </td>
+                    <td>
+                        <label for="">Select Gender <br>
+                            <select name="" id="" class="inputfield">
+                                <option value="">Select Gender</option>
+                                <option value="">Male</option>
+                                <option value="">Female</option>
+                            </select>
+
+                        </label>
+                    </td>
+
+                </tr>
+            </table>
+
+
+            <label for="">Address <br>
+                <input type="text" class="inputfield" required>
+            </label>
+            <br>
+            <label for="">Last Qualification <br>
+                <select name="" id="" class="inputfield">
+                    <option value="">Last Qualification</option>
+                    <option value="">Matric</option>
+                    <option value="">Intermediate</option>
+                    <option value="">Bachelor</option>
+                </select>
+            </label>
+            <br>
+            <label for="">Do you have a Laptop? <br>
+                <select name="" id="" class="inputfield">
+                    <option value="">Do you have a Laptop?</option>
+                    <option value="">Yes</option>
+                    <option value="">No</option>
+                </select>
+            </label>
+            <br>
+            <br>
+            <label for="">Picture </label>
+            <input type="file" required>
+            <p>With white or blue background
+                File size must be less than 1MB
+                File type: jpg, jpeg, png
+                Upload your recent passport size picture
+                Your Face should be clearly visible without any Glasses</p>
+
+
+            <ol>
+                <li>
+                    I hereby, solemnly declare that the data and facts mentioned herein are true and correct to the best
+                    of
+                    my knowledge. Further, I will abide by all the established and future regulations and policies of
+                    SWIT
+                </li>
+                <li>I hereby accept the responsibilities of good conduct and guarantee that I will not be involved in
+                    any
+                    other activity, political or ethical, but learning during my stay in the program.
+                </li>
+                <li>
+                    Defiance will render my admission canceled at any point in time.
+                </li>
+                <li>
+                    Upon completion, of the course, I will complete the required project by SWIT.
+                </li>
+                <li>
+                    It's mandatory for female students to wear abaya/hijab in the class
+                </li>
+            </ol>
+
+            <input type="submit" id="btn">
+        </div>
+    </form>
+</body>
+
+</html>
